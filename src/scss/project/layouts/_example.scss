@@ -26,19 +26,19 @@ Layout: Example
   &__title {
     color: color(primary);
     margin-bottom: 24px;
-    transition: all .75s ease 0s;
+    transition: all 0.75s ease 0s;
     .main-site--hide & {
       opacity: 0;
       transform: translateY(16px);
     }
     @include medium {
-      @include font-size(h2);
+      @include font-size(32);
       margin-bottom: 16px;
     }
   }
   &__desc {
     margin-bottom: 0;
-    transition: all .75s ease .35s;
+    transition: all 0.75s ease 0.35s;
     .main-site--hide & {
       opacity: 0;
       transform: translateY(16px);
@@ -46,13 +46,13 @@ Layout: Example
   }
   &__subtitle {
     margin-bottom: 8px;
-    transition: all .75s ease .7s;
+    transition: all 0.75s ease 0.7s;
     .main-site--hide & {
       opacity: 0;
       transform: translateY(16px);
     }
     @include medium {
-      @include font-size(h4);
+      @include font-size(20);
       margin-bottom: 0;
     }
   }
@@ -60,7 +60,7 @@ Layout: Example
     @include clearfix;
     margin-left: -12px;
     margin-right: -12px;
-    transition: all .75s ease .8s;
+    transition: all 0.75s ease 0.8s;
     .main-site--hide & {
       opacity: 0;
       transform: translateY(16px);
